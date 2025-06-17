@@ -10,15 +10,6 @@ import java.util.List;
 
 @Component
 public class ProductDao {
-  //  private int productId;
-  //    private String productName;
-  //    private int supplierId;
-  //    private int categoryId;
-  //    private String quantityPerUnit;
-  //    private double unitsInStock;
-  //    private double unitsOnOrder;
-  //    private double reorderLevel;
-  //    private boolean discontinued;
   private DataSource dataSource;
 
   public ProductDao(DataSource dataSource) {
